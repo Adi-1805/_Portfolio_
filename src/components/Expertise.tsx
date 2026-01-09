@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faEthereum, faPython, faResearchgate, faCuttlefish } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
@@ -94,8 +94,8 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>AI/Machine Learning</h3>
+                    <FontAwesomeIcon icon={faPython} size="3x"/>
+                    <h3>AI/ML</h3>
                     <p>I work at the intersection of data, models, and impact—building machine learning solutions that translate theory into real-world outcomes. My experience spans supervised learning, NLP, and model evaluation, with a strong focus on clean pipelines and measurable performance.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
@@ -106,7 +106,7 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
+                    <FontAwesomeIcon icon={faEthereum} size="3x"/>
                     <h3>GenAI & LLM</h3>
                     <p>I design and implement GenAI-powered applications using modern LLM frameworks, with hands-on experience in retrieval-augmented generation, prompt engineering, and scalable inference workflows. My work focuses on building reliable, production-ready AI systems.</p>
                     <div className="flex-chips">
@@ -118,7 +118,7 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
+                    <FontAwesomeIcon icon={faResearchgate} size="3x"/>
                     <h3>Research & Applied ML</h3>
                     <p>I have hands-on experience in applied research, including literature reviews, experimentation, and model benchmarking—particularly in areas like deepfake detection and NLP. I enjoy translating research ideas into reproducible and impactful implementations.</p>
                     <div className="flex-chips">
@@ -142,7 +142,7 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
+                    <FontAwesomeIcon icon={faCuttlefish} size="3x"/>
                     <h3>Competitive Programming & DSA</h3>
                     <p>I bring strong algorithmic thinking and problem-solving skills, developed through competitive programming and rigorous DSA practice. This foundation helps me write optimized, efficient, and scalable code across domains.</p>
                     <div className="flex-chips">

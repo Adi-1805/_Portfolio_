@@ -16,41 +16,53 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="Nov 2025 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">AI Research Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">The Bean Code | Haryana (Remote) </h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+                Deep Learning, Convolutional Neural Networks, Transformer, Large Langugage Models, Model Benchmarking, Ablation Studies & Hyperparameter Tuning 
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="Oct 2025 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title"> AI/ML Lead</h3>
+            <h4 className="vertical-timeline-element-subtitle">Machine Learning & Artificial Intelligence | Bhopal</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+                Technical Leadership, Team Coordination, Applied Machine Learning, Real-world ML Use Case Design
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="Oct 2024 - Oct 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Webmaster</h3>
+            <h4 className="vertical-timeline-element-subtitle">IEEE IIIT Bhopal Student | Bhopal </h4>
             <p>
-              Full-stack Development, API Development, User Experience
+            HTML5, CSS3, JavaScript, Version Control, Website Development, Uptime Monitoring, UI/UX Design
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Aug 2025 - Sep 2025"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Trainee</h3>
+            <h4 className="vertical-timeline-element-subtitle">Amazon ML Summer School</h4>
+            <p>
+              Automation, Data Governance, Statistical Analysis
+            </p>
+          </VerticalTimelineElement>
+          {/* <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2020 - 2020"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
@@ -61,7 +73,7 @@ function Timeline() {
             <p>
               Automation, Data Governance, Statistical Analysis
             </p>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
         </VerticalTimeline>
       </div>
     </div>

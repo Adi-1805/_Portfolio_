@@ -1,15 +1,22 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import bgDark from '../assets/images/bg-dark.png';
+import bgLight from '../assets/images/bg-light.png';
 import '../assets/styles/Main.scss';
 
-function Main() {
+interface MainProps {
+  mode?: string;
+}
+
+function Main({ mode = 'dark' }: MainProps) {
+  const backgroundImage = mode === 'light' ? bgLight : bgDark;
 
   return (
     <div className="container">
-      <div className="about-section">
+      <div className="about-section" style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className="image-wrapper">
-          <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/avatar_circle.jpeg" alt="Avatar" />
+          <img src="https://github.com/Adi-1805/_Portfolio_/blob/main/assets/WhatsApp%20Image%202026-01-01%20at%2023.50.57.jpeg?raw=true" alt="Avatar" />
         </div>
         <div className="content">
           <div className="social_icons">

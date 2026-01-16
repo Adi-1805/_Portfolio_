@@ -21,6 +21,15 @@
   fieldset {
     background-color: white;
   }
+
+  .MuiInputBase-input {
+    color: #050f0b;
+    font-weight: 500;
+  }
+
+  .MuiFormLabel-root {
+    color: #050f0b !important;
+  }
 }
 
 label {

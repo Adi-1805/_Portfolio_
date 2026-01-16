@@ -25,28 +25,30 @@ function Contact() {
     setEmailError(email === '');
     setMessageError(message === '');
 
-    /* Uncomment below if you want to enable the emailJS */
-
     if (name !== '' && email !== '' && message !== '') {
-       var templateParams = {
-         name: name,
-         email: email,
-         message: message
-       };
+      var templateParams = {
+        name: name,
+        email: email,
+        message: message
+      };
 
-       console.log(templateParams);
-       emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-         (response: any) => {
-           console.log('SUCCESS!', response.status, response.text);
-         },
-         (error: any) => {
-           console.log('FAILED...', error);
-         },
-       );
-       setName('');
-       setEmail('');
-       setMessage('');
-     }
+      console.log(templateParams);
+      emailjs.send(process.env.REACT_APP_EMAILJS_SERVICE_ID!, process.env.REACT_APP_EMAILJS_TEMPLATE_ID!, templateParams, process.env.REACT_APP_EMAILJS_PUBLIC_KEY!).then(
+        (response: any) => {
+          console.log('SUCCESS!', response.status, response.text);
+        },
+        (error: any) => {
+          console.log('FAILED...', error);
+        },
+      );
+
+      // Auto-reply
+      emailjs.send(process.env.REACT_APP_EMAILJS_SERVICE_ID!, process.env.REACT_APP_EMAILJS_AUTO_REPLY_TEMPLATE_ID!, templateParams, process.env.REACT_APP_EMAILJS_PUBLIC_KEY!);
+
+      setName('');
+      setEmail('');
+      setMessage('');
+    }
   };
 
   return (

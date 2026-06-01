@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import ResumeFileIcon from '@mui/icons-material/DescriptionOutlined';
 import bgDark from '../assets/images/bg-dark.png';
 import bgLight from '../assets/images/bg-light.png';
 import '../assets/styles/Main.scss';
@@ -22,9 +23,10 @@ function Main({ mode = 'dark' }: MainProps) {
           <div className="social_icons">
             <a href="https://github.com/Adi-1805" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/aditi-mishra-40389422b/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://docs.google.com/document/d/1R4anBAUakQI2XdsTWtHPlT50PYaLDAL-Ll5U9LkN4GQ/edit?usp=sharing" target="_blank" rel="noreferrer"><ResumeFileIcon/></a>
           </div>
           <h1>Aditi Mishra</h1>
-          <p>AI/ML Engineer</p>
+          <p>Software Developer & AI/ML Enthusiast</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/Adi-1805" target="_blank" rel="noreferrer"><GitHubIcon/></a>

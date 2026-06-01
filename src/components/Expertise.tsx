@@ -96,7 +96,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>AI/ML</h3>
-                    <p>I work at the intersection of data, models, and impact—building machine learning solutions that translate theory into real-world outcomes. My experience spans supervised learning, NLP, and model evaluation, with a strong focus on clean pipelines and measurable performance.</p>
+                    <p>I work at the intersection of data, models, and impact-building machine learning solutions that translate theory into real-world outcomes. My experience spans supervised learning, NLP, and model evaluation, with a strong focus on clean pipelines and measurable performance.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (

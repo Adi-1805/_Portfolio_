@@ -35,7 +35,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Technical Program Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">TechSmith | Bengaluru (Remote)</h4>
+            <h4 className="vertical-timeline-element-subtitle">FounderSmith | Bengaluru (Remote)</h4>
             <p>
                 Node.js, React, TypeScript, Tailwind CSS, Git, GitHub, Deployment, CI/CD, Vercel, Supabase, Prisma, PostgreSQL
             </p>
@@ -47,7 +47,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title"> AI/ML Lead</h3>
-            <h4 className="vertical-timeline-element-subtitle">Machine Learning & Artificial Intelligence | Bhopal</h4>
+            <h4 className="vertical-timeline-element-subtitle">Axios | Bhopal</h4>
             <p>
                 Technical Leadership, Team Coordination, Applied Machine Learning, Real-world ML Use Case Design
             </p>

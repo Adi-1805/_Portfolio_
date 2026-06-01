@@ -14,9 +14,9 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://github.com/Adi-1805/CSES-to-GitHub-Pusher" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/Adi-1805/CSES-to-GitHub-Pusher"><h2>CSES to GitHub Pusher</h2></a>
-                <p>Yay! I made it cause I wanted it. This is a Chrome extension that automatically pushes your accepted CSES Problem Set solutions to a GitHub repository, keeping your solutions organized and version-controlled.</p>
+                <a href="https://chromewebstore.google.com/detail/cses-to-github-pusher/pbnmponeodffadeebonldhlobemekdam" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://chromewebstore.google.com/detail/cses-to-github-pusher/pbnmponeodffadeebonldhlobemekdam"><h2>CSES to GitHub Pusher</h2></a>
+                <p>Yay! Made it cause I needed it. This is a Chrome extension that automatically pushes your accepted CSES Problem Set solutions to a GitHub repository, keeping your solutions organized and version-controlled.</p>
             </div>
             <div className="project">
                 <a href="https://github.com/Adi-1805/SIH-P.S.1760-ML_MODEL" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
